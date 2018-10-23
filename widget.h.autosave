@@ -1,0 +1,29 @@
+#ifndef WIDGET_H
+#define WIDGET_H
+
+#include <QWidget>
+
+class QUdpSocket;
+
+namespace Ui {
+class Widget;
+}
+
+//枚举变量标志信息类型，分别为、聊天信息、新用户加入、用户退出、文件名、拒绝接收文件
+enum MsgType{Msg, NewUser, UserLeft, FileName, Refuse};
+
+class Widget : public QWidget
+{
+    Q_OBJECT
+
+public:
+    explicit Widget(QWidget *parent = nullptr);
+    ~Widget();
+    
+    
+
+private:
+    Ui::Widget *ui;
+};
+
+#endif // WIDGET_H
