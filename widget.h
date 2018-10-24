@@ -21,8 +21,8 @@ public:
     ~Widget();  
 
 protected:
-    void newUser(QString username, QString ipaddr);     //处理新用户加入
-    void userLeft(QString username, QString time);      //处理用户离开
+    void newUser(QString username, QString localHostName, QString ipaddr);     //处理新用户加入
+    void userLeft(QString username, QString localHostName, QString time);      //处理用户离开
     void sendMsg(MsgType type, QString srvaddr="");     //广播UDP消息
 
     QString getIP();                                    //获取IP地址
@@ -34,7 +34,7 @@ private:
     Ui::Widget *ui;
     QUdpSocket *udpSocket;
     qint16 port;
-    QString uName;//
+    //QString uName;//
 
 
 private slots:
