@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.7.1, 2018-10-24T16:58:38. -->
+<!-- Written by QtCreator 4.7.1, 2018-10-24T16:58:29. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -362,8 +362,8 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">chat</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/lgx/chat/chat.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">chat2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/lgx/chat/Simple_LAN_IM/chat.pro</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseDyldImageSuffix">false</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>

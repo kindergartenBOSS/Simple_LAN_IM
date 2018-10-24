@@ -214,3 +214,8 @@ Widget::~Widget()
     delete ui;
 }
 
+
+void Widget::on_sendBtn_clicked()
+{
+    sendMsg(Msg);
+}

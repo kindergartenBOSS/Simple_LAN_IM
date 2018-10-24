@@ -39,6 +39,7 @@ private:
 
 private slots:
     void processPendingDatagrams();                     //接收UDP消息
+    void on_sendBtn_clicked();
 };
 
 #endif // WIDGET_H
