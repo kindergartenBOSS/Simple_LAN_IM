@@ -29,15 +29,18 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         widget.cpp \
-    tcpserver.cpp
+    tcpserver.cpp \
+    client.cpp
 
 HEADERS += \
         widget.h \
-    tcpserver.h
+    tcpserver.h \
+    client.h
 
 FORMS += \
         widget.ui \
-    tcpserver.ui
+    tcpserver.ui \
+    client.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
