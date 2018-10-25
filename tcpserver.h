@@ -33,7 +33,7 @@ private:
     QTcpServer *tSrv;
     QString fileName;
     QString theFileName;
-    QFile *localFile;                             //待发送的文件
+    QFile *localFile;                           //待发送的文件
 
     qint64 totalBytes;                          //总共需要发送的字节数
     qint64 bytesWritten;                        //已发送的字节数
@@ -42,7 +42,7 @@ private:
 
     QByteArray outBlock;                        //缓存一次发送的数据
 
-    QTcpSocket *clientConnection;                       //客户端连接的套接字
+    QTcpSocket *clientConnection;               //客户端连接的套接字
 
     QTime time;
 
